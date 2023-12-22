@@ -1,0 +1,16 @@
+version: 2
+services:
+  web:
+    image: nginx:1.19
+    env:
+      - APP_KEY=base64:rKO77EpnQy/yzvrOyt3aZsatLl/dVz22nTG97RZccrc=
+      - APP_ENV=production
+    ports:
+      - 8080:8080
+  websocket:
+    image: nginx:1.19
+    env:
+      - APP_KEY=your_app_key
+      - APP_ENV=production
+    ports:
+      - 6001:6001
