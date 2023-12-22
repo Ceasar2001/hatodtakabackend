@@ -2,7 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\user;
+
+use App\Models\User;
 use App\Notifications\LoginNeedsVerification;
 use Illuminate\Http\Request;
 
