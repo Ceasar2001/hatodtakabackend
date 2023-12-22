@@ -22,9 +22,9 @@
     },
     "database": {
         "redis": {
-            "host": "127.0.0.1",
-            "port": "6379",
-            "password": "",
+            "host": "postgresql://postgres:G*D*26cbFeb24g4F-Ggc3bEDCGB12Bg*@roundhouse.proxy.rlwy.net:59221/railway",
+            "port": "59221",
+            "password": "G*D*26cbFeb24g4F-Ggc3bEDCGB12Bg*",
             "db": 0
         }
     }
